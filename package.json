@@ -1,0 +1,32 @@
+{
+  "name": "vueexample",
+  "version": "1.0.0",
+  "description": "Vue Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-min": "webpack ./src/index.js ./dist/app.js -p",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "hmr-loader": "^1.0.5",
+    "jquery": "^3.3.1",
+    "style-loader": "^0.23.0",
+    "vue": "^2.5.17",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "url-loader": "^1.1.1",
+    "vue-loader": "^15.4.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
